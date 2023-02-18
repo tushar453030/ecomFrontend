@@ -4,7 +4,7 @@ import {BrowserRouter} from 'react-router-dom';
 import App from './App';
 
 const root = document.getElementById('root'); // <- This is the //correct method call for React version 17
-render(<App />, root);
+ReactDOM.render(<App />, root);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
